@@ -30,11 +30,10 @@ export default function Nav() {
         return isActive ? { textDecoration: 'underline' } : {};
       }}>Contact</NavLink>
 
-      <NavLink to='/checkout' reload='true'>
-        {/* <Badge badgeContent={total} color="secondary">
+      <NavLink className='navbar' to='/checkout' reload='true'>
+        <Badge badgeContent={total} color="secondary">
                     <img src='/logo.branding/shopping_light.png' alt='shopping bag' className="cartimg" />
-                </Badge> */}
-        Checkout
+                </Badge>
       </NavLink>
     </nav >
   )
