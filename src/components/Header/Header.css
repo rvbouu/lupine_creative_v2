@@ -30,3 +30,12 @@ nav{
   font-size: 1.5rem;
 }
 
+#shop-button{
+  font-size: 1.5rem;
+  color: #E1DDCC;
+  text-transform: none;
+}
+
+#cartimg{
+  height: 30px;
+}

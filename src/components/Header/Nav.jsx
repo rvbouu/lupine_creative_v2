@@ -1,4 +1,6 @@
 import { NavLink } from 'react-router-dom';
+import { Shopping } from '../../components';
+import Badge from '@mui/material/Badge';
 import './Header.css';
 
 export default function Nav() {
@@ -11,9 +13,11 @@ export default function Nav() {
       }}>Home</NavLink>
 
       {/* Shop tab */}
-      <NavLink reload="true" className="navbar" to="/shop" style={({ isActive }) => {
+      {/* <NavLink reload="true" className="navbar" to="/shop" style={({ isActive }) => {
         return isActive ? { textDecoration: 'underline' } : {};
-      }}>Shop</NavLink>
+      }}>Shop</NavLink> */}
+
+      <Shopping />
 
       {/* About Lupine Creative */}
       <NavLink className="navbar" to="/about" style={({ isActive }) => {
@@ -31,9 +35,9 @@ export default function Nav() {
       }}>Contact</NavLink>
 
       <NavLink className='navbar' to='/checkout' reload='true'>
-        <Badge badgeContent={total} color="secondary">
-                    <img src='/logo.branding/shopping_light.png' alt='shopping bag' className="cartimg" />
-                </Badge>
+        <Badge badgeContent={4} color="secondary">
+          <img src='/logo_branding/shopping_light.png' alt='shopping bag' id="cartimg" />
+        </Badge>
       </NavLink>
     </nav >
   )

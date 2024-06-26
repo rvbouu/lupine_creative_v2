@@ -16,25 +16,34 @@ export default function Shopping() {
   return (
     <div>
       <Button
-        id="basic-button"
-        aria-controls={open ? 'basic-menu' : undefined}
+        id="shop-button"
+        aria-controls={open ? 'shop-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
+        className='navbar'
       >
-        Shopping
+        Shop
       </Button>
       <Menu
-        id="basic-menu"
+        id="shop-menu"
         anchorEl={anchorEl}
         open={open}
         onClose={handleClose}
         MenuListProps={{
-          'aria-labelledby': 'basic-button',
+          'aria-labelledby': 'shop-button',
         }}
       >
-        <MenuItem onClick={handleClose}>Earrings</MenuItem>
-        <MenuItem onClick={handleClose}>Macrame</MenuItem>
+        <MenuItem 
+          href='/earrings'
+          component='a'
+          onClick={handleClose}>
+          Earrings</MenuItem>
+          <MenuItem 
+          href='/macrames'
+          component='a'
+          onClick={handleClose}>
+          Macrames</MenuItem>
       </Menu>
     </div>
   );

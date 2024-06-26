@@ -1,4 +1,4 @@
-import { Shopping } from '../../components';
+import { Nav } from '../../components';
 import './Header.css';
 
 export default function Header(){
@@ -12,8 +12,7 @@ export default function Header(){
     <header>
       {/* Lupine Creative Logo */}
       <img id='logo' src='/logo_branding/lupinecreativenew.svg' alt='Lupine Creative Logo' />
-      {/* <Nav /> */}
-      <Shopping />
+      <Nav />
     </header>
     </>
   )
