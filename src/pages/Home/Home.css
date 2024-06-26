@@ -1,0 +1,34 @@
+.main-product{
+  background-color: #cb8cae30;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image{
+  position: absolute;
+  left: 500px;
+}
+
+#main-title{
+  font-size: 3rem;
+  font-weight: 400;
+  position: absolute;
+  background-color: #E1DDCC;
+  padding: 15px;
+  border: 1px solid #3A9094;
+  left: 600px;
+  top: 800px;
+}
+
+.carousel{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.placeholder{
+  height: 200px;
+  margin: 15px;
+}
