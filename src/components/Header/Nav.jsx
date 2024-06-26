@@ -13,10 +13,6 @@ export default function Nav() {
       }}>Home</NavLink>
 
       {/* Shop tab */}
-      {/* <NavLink reload="true" className="navbar" to="/shop" style={({ isActive }) => {
-        return isActive ? { textDecoration: 'underline' } : {};
-      }}>Shop</NavLink> */}
-
       <Shopping />
 
       {/* About Lupine Creative */}
@@ -25,7 +21,7 @@ export default function Nav() {
       }}>About</NavLink>
 
       {/* FAQs tab */}
-      <NavLink className="navbar" to="/contact" style={({ isActive }) => {
+      <NavLink className="navbar" to="/faqs" style={({ isActive }) => {
         return isActive ? { textDecoration: 'underline' } : {};
       }}>FAQs</NavLink>
 

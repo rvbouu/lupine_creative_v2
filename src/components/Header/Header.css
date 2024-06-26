@@ -1,12 +1,14 @@
-#announcement-bar{
+#announcement-bar {
   background-color: #E07FB3;
   width: 100%;
-  height: 1.3rem;
-  text-align: center;
-  vertical-align: middle;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: #FFFF;
 }
-header{
+
+header {
   height: 10rem;
   background-color: #3A9094;
   display: flex;
@@ -14,28 +16,28 @@ header{
   align-items: center;
 }
 
-#logo{
+#logo {
   height: 200px;
   width: 200px;
 }
 
-nav{
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 50%;
 }
 
-.navbar{
+.navbar {
   font-size: 1.5rem;
 }
 
-#shop-button{
+#shop-button {
   font-size: 1.5rem;
   color: #E1DDCC;
   text-transform: none;
 }
 
-#cartimg{
+#cartimg {
   height: 30px;
 }

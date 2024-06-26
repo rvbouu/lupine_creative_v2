@@ -1,0 +1,35 @@
+footer{
+  height: 8rem;
+  background-color: #3A9094;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#newsletter{
+  display: flex;
+  flex-direction: column;
+}
+
+.news-label{
+  color: #E1DDCC;
+  font-size: 1.5rem;
+}
+
+#news-email{
+  background-color: transparent;
+  border: 2px solid #E1DDCC;
+  color: #E1DDCC;
+  width: 50%;
+  font-size: 1.3rem;
+  padding: 2px;
+  margin: 5px;
+}
+
+::placeholder{
+  color: #E1DDCC;
+}
+
+#insta-logo{
+  height: 30px;
+}
