@@ -1,6 +1,6 @@
 .main-product{
   background-color: #cb8cae30;
-  height: 800px;
+  height: 45rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -20,12 +20,14 @@
   padding: 15px;
   border: 1px solid #3A9094;
   left: 600px;
-  top: 800px;
+  top: 750px;
 }
 
 .carousel{
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  min-height: calc(100vh - 65rem);
 }
 
 .placeholder{
