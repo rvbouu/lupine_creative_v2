@@ -30,6 +30,12 @@ footer{
   color: #E1DDCC;
 }
 
+#news-btn{
+  background-color: transparent;
+  border: none;
+  filter: invert(1);
+}
+
 #insta-logo{
   height: 30px;
 }
